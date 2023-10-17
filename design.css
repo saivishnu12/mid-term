@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.6;
+  }
+  
+
+  .container {
+    max-width: 1300px;
+
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+  }
+  
+  .header h6 {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+ 
+  .articlee {
+    flex: 1;
+    margin: 10px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .articles{
+    
+        flex: 1;
+        margin: 10px;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border: 1px solid #ddd;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .articlem{
+        flex: 1;
+        margin: 10px;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border: 1px solid #ddd;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .pins{
+    flex: 1;
+    margin: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .pins h2 {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .pins img {
+    max-width: 70%; 
+  }
+  
+  .pins p {
+    font-size: 14px; 
+    margin: 0;
+  }
+  .
+  .article img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .article-content h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .article-content {
+    font-size: 16px;
+    color: #333;
+  }
+  
+
+  .footer{
+    background-color: black;
+    color:white ;
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 350%;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .bottomlinks{
+    list-style-type: none;
+  }
+ 
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 100px; 
+}
+
+.articlee, .articles, .articlem {
+  flex: 1;
+  margin-bottom: 20px; 
+}
+
+.sidebar {
+  flex: 1;
+  flex-direction: column; 
+  L
+}
+
+.pins {
+  margin-bottom: 20px; 
+}
+.pins {
+  width: 150%; 
+  max-width: ; 
+  height: 300px; 
+  margin: 0 auto; 
+}
+.content {
+  float: left;
+  width: 70%
+}
+
